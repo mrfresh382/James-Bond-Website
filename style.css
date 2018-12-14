@@ -1,0 +1,98 @@
+* {
+	background-color: black;
+	color: white;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	font-family: "Lucida Fax", serif;
+
+}
+
+.title  {
+	display : flex;
+	display : -webkit-flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	width:100%;
+
+}
+
+
+
+.title img{
+	float:left;
+	width: 170px;
+	height: 130px;
+	margin: 50px;
+}
+
+.text1 {
+	letter-spacing: 1px;
+
+
+}
+
+
+.trivia{
+
+	display: flex;
+	display : -webkit-flex;
+	flex-wrap:wrap;
+
+
+}
+
+.triviapic img{
+	height:150px;
+	width:150px;
+	float:left;
+	margin:10px;
+
+}
+
+.text2{
+	display : flex;
+	display : -webkit-flex;
+	min-width:300px;
+	max-width:31%;
+	margin:4px;
+	border-style: ridge;
+	border-radius: 6px;
+	border-width: 12px;
+	background-color: #778899;
+}
+
+.text2 p{
+	background-color: #778899;
+
+}
+
+
+.actors h3{
+	font-size:250%;
+	margin-left: 110px;
+}
+
+.actors p{
+	margin-left: 150px;
+
+}
+
+footer{
+	display : flex;
+	display : -webkit-flex;
+	justify-content: center;
+	margin: auto;
+	width:100%;
+}
+
+.actorpic {
+	display : block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	height: 220px;
+
+}
